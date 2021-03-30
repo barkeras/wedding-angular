@@ -1,0 +1,102 @@
+<section>
+    <!-- NAVIGATION -->    
+    <header id="nav-header">
+        <nav id="nav-bar" class="top-bar fluid-width transparent nav-center sticky-nav animation fadeInDown">
+            
+            <div id="nav-wrapper">
+                
+                <!-- LOGO -->
+                <div class="logo-wrapper">
+                    <!-- CSS LOGO --> 
+                    <a href="#">
+                        <div class="css-logo rounded">
+                               <div class="css-logo-text">
+                                <strong>A</strong><i class="de-icon-heart-1"></i><strong>R</strong>
+                            </div>
+                        </div>
+                    </a>
+                
+                    <!-- IMG LOGO 
+                    <a href="#">
+                        <div class="img-logo">
+                            <img src="images/slide1.jpg">
+                        </div>
+                    </a>
+                    -->
+                </div>
+                <!-- END of LOGO -->
+                
+                <div id="mobile-nav">
+                    <i class="de-icon-menu"></i>
+                </div>
+            
+                <ul id="nav-menu" [ngClass]="sliderPage ? '': 'no-slider-page' ">
+                    <li class="first-child">
+                        <a href="#">HOME</a>
+                    </li>
+                       <!-- <li>
+                        <a href="#">ABOUT</a>
+                        <ul>
+                            <li>
+                                <a href="profile-him.html">ABOUT ANDREW</a>
+                            </li>
+                            <li>
+                                <a href="profile-her.html">ABOUT RACHEL</a>
+                            </li>
+                           </ul> 	
+                    </li> -->
+                    <li>
+                        <a href="#">PHOTO GALLERIES</a>
+                        <ul>
+                            <li><a href="./galleries/proposal/">THE PROPOSAL</a></li>                      <li><a href="./galleries/engagement-session/">ENGAGEMENT PHOTOS</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li class="split-margin first-child"><a href="the-story.html">THE STORY</a></li> -->
+                    <li class="split-margin first-child">
+                        <a href="#">WEDDING DETAILS</a>
+                         <ul>
+                             <li><a href="./details/locations/">LOCATIONS</a></li>
+                            <li><a href="./details/accommodations/">ACCOMMODATIONS</a></li>
+                            <li>
+                                <a href="wedding-party/bridesmaids/">BRIDESMAIDS</a>
+                            </li>
+                            <li>
+                                <!-- <a href="./wedding-party/groomsmen/">GROOMSMEN</a> -->
+                                <a [routerLink]="['/wedding-party/groomsmen']" [routerLinkActive]="['active']" #lsrla="routerLinkActive">GROOMSMEN</a>
+                            </li>
+                            <li>
+                                <a href="#">SPECIAL PEOPLE</a>
+                                <ul>
+                                    <li><a href="./special-people/in-loving-memory/">IN LOVING MEMORY</a></li>
+                                    <li><a href="./special-people/parents/">PARENTS</a></li>
+                                    <li><a href="./special-people/dogs/">DOGS</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./details/registry/">GIFT REGISTRIES</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- <li>
+                        <a href="#">BLOG</a>
+                        <ul>
+                            <li><a href="blog.html">BLOG</a></li>
+                            <li><a href="blog-slider.html">BLOG SLIDER</a></li>
+                            <li><a href="blog-parallax-image.html">BLOG PARALLAX IMAGE</a></li>
+                            <li><a href="blog-parallax-sidebar.html">BLOG PARALLAX - SIDEBAR</a></li>
+                        </ul>
+                    </li> -->
+                    <!-- <li>
+                            <a href="page.html">PAGE</a>
+                    </li> -->
+                    <li>
+                        <a href="./rsvp/">RSVP</a>
+                    </li>
+                </ul>
+                
+                <div class="clearboth"></div>
+                
+            </div>
+            
+        </nav>
+    </header> <!-- END of NAVIGATION -->
+</section>
